@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.wsc" name="Webshare Cinema" version="0.4.3" provider-name="cache-sk/peca2345/Mudraon">
+<addon id="plugin.video.wsc" name="Webshare Cinema" version="0.4.4" provider-name="cache-sk/peca2345/Mudraon">
     <requires>
         <!--import addon="xbmc.python" version="2.19.0"/-->
         <import addon="script.module.requests" version="2.18.4"/>
@@ -53,6 +53,21 @@
 - TODO hladanie pomocou TMDB
         </news>
     </extension>
+</addon>
+<addon id="service.subtitles.titulky.com" name="Titulky.com" version="2.0.2.1" provider-name="Beam">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.simplejson" version="3.17.0" />
+	</requires>
+	<extension point="xbmc.subtitle.module" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Titulky.com</summary>
+		<description lang="en_GB">Search and download subtitles from titulky.com (Czech/Slovak only)</description>
+		<description lang="cs_CZ">Vyhledávání a stahování titulků z titulky.com</description>
+		<description lang="sk_SK">Vyhľadávanie a sťahovanie titulkov z titulky.com</description>
+		<source>https://github.com/beam-kodi-addons-repository/service.subtitles.titulky.com</source>
+		<email>ondra@bimovi.cz</email>
+	</extension>
 </addon>
 <addon id="repository.stepos" name="Stepos – doplňky" version="1.0.0" provider-name="stepos">
     <extension point="xbmc.addon.repository" name="Stepos – doplňky">

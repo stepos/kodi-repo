@@ -4,6 +4,9 @@ Repozitář doplňků pro Kodi 19+. Obsahuje upravený doplněk **Webshare Cinem
 nabídka filmů a seriálů z TMDB, hledání a přehrávání z Webshare vlastním účtem, řazení podle jazyka
 a kvality, oblíbené, historie a pamatování pozice.
 
+Dále obsahuje doplněk **Titulky.com** (`service.subtitles.titulky.com`, autor Beam) s vypnutým odesíláním
+statistik.
+
 Doplněk vychází z YaWSP (cache-sk) a `Mudraon/plugin.video.wsc`, licence AGPL-3.0. Zdrojový kód je
 součástí balíčku `.zip`.
 
